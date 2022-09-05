@@ -1,0 +1,431 @@
+body {
+  margin: auto;
+  transform: 0.5s ease-in-out;
+}
+#darkmode {
+  background-color: orange;
+  padding: 3px 7px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  font-weight: bold;
+  margin-top: 10px;
+  float: right;
+  margin-right: 1%;
+}
+#darkmode:hover {
+  background-color: aquamarine;
+  color: green;
+}
+.light-mode {
+  background-color: black !important;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #000000;
+}
+#logo > img {
+  height: 40px;
+  width: 10%;
+  float: left;
+  margin: 1%;
+  margin-left: 1%;
+}
+.delivery {
+  height: 40px;
+  width: 10%;
+  float: left;
+  background-color: antiquewhite;
+  margin-top: 1%;
+}
+#searchbox {
+  height: 35px;
+  width: 40%;
+  float: left;
+  border: 2px solid rgb(228, 234, 228);
+  background-color: white;
+  margin-top: 1%;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: row;
+}
+.select {
+  height: 28px;
+  width: 50px;
+  margin-top: 0.5%;
+  float: left;
+  margin-left: 1%;
+  text-align: center;
+  background-color: rgb(186, 183, 179);
+}
+.productsearch {
+  height: 30px;
+  width: 78%;
+  background-color: white;
+  border: 1px solid #000000;
+  margin-top: 0.5%;
+  margin-left: 9%;
+}
+.searchbutton {
+  margin-left: 1%;
+  float: left;
+}
+.searchbutton {
+  height: 30px;
+  width: 54px;
+  float: left;
+  margin-top: 1%;
+  margin-left: 2%;
+  background-color: rgb(205, 125, 46);
+}
+button > img {
+  height: 25px;
+  width: 40px;
+  float: left;
+}
+.signin {
+  height: 35px;
+  width: 8%;
+  float: left;
+  background-color: antiquewhite;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.signin > button {
+  height: 35px;
+  width: 101px;
+}
+.return {
+  height: 35px;
+  width: 8%;
+  float: left;
+  background-color: antiquewhite;
+  margin-top: 1%;
+  margin-left: 0.2%;
+}
+.return > button {
+  height: 35px;
+  width: 140px;
+}
+.cart {
+  height: 35px;
+  width: 4%;
+  float: left;
+  background-color: antiquewhite;
+  margin-top: 1%;
+  margin-left: 3.3%;
+}
+.cart > button {
+  height: 35px;
+  width: 70px;
+}
+.navigationbar {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(9, 1, 30, 0.733);
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-left: 0%;
+  background-color: #232f3e;
+}
+.navibutton {
+  height: 40px;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-left: 1%;
+  margin-top: 0.5%;
+}
+.button1 {
+  height: 35px;
+  width: 70;
+  background-color: #232f3e;
+  color: white;
+  font: bold;
+  margin-left: 0.5%;
+}
+.button2 {
+  height: 35px;
+  width: 125px;
+  background-color: #232f3e;
+  color: white;
+  margin-left: 0.5%;
+}
+.button3 {
+  height: 35px;
+  width: 100px;
+  background-color: #232f3e;
+  color: white;
+  margin-left: 0.5%;
+}
+.button4 {
+  height: 35px;
+  width: 145px;
+  background-color: #232f3e;
+  color: white;
+  margin-left: 0.5%;
+}
+.button5 {
+  height: 35px;
+  width: 95px;
+  background-color: #232f3e;
+  color: white;
+  margin-left: 0.5%;
+}
+.button6 {
+  height: 35px;
+  width: 75px;
+  background-color: #232f3e;
+  color: white;
+  margin-left: 0.5%;
+}
+.button7 {
+  height: 35px;
+  width: 65px;
+  background-color: #232f3e;
+  color: white;
+  margin-left: 0.5%;
+}
+.banner {
+  height: 250px;
+  width: 100%;
+  margin-top: 4%;
+  background-image: url(https://m.media-amazon.com/images/I/717OO5QwJnL._SX3000_.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+}
+.banner > img {
+  height: 200px;
+  width: 100%;
+}
+.section1 {
+  height: 900px;
+  width: 96%;
+  /* border: 2px solid blue; */
+  margin-left: 2%;
+}
+.card > h2 {
+  font-size: 20px;
+  margin-left: 2%;
+}
+p {
+  margin-left: 4%;
+}
+
+.list1 {
+  height: 400px;
+  width: 95%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  position: absolute;
+  float: left;
+  /* border: 1px solid rebeccapurple; */
+  margin-left: 0%;
+}
+.list2 {
+  height: 400px;
+  width: 95%;
+  margin-top: 35%;
+  margin-bottom: 1%;
+  position: absolute;
+  float: left;
+  /* border: 1px solid rebeccapurple; */
+}
+#imgsix {
+  height: 100px;
+  width: 90%;
+}
+.card {
+  height: 400px;
+  width: 22%;
+  /* border: 1px solid green; */
+  margin-left: 2.5%;
+  margin-top: 0%;
+  float: left;
+}
+.card > img {
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+/* .minisection1 {
+  height: 430px;
+  width: 20%;
+  float: left;
+  margin-left: 2%;
+  background-color: rgb(217, 255, 0);
+} */
+.section2 {
+  height: 280px;
+  width: 96%;
+  /* border: 2px solid blue; */
+  margin-left: 2%;
+}
+.section2 > h2 {
+  font-size: 20px;
+  margin-left: 1%;
+  margin-top: 0.5%;
+}
+.list3 {
+  height: 230px;
+  width: 95%;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  position: absolute;
+  float: left;
+  /* border: 1px solid rebeccapurple; */
+  margin-left: 0%;
+  display: flex;
+  flex-direction: row;
+}
+.section2list {
+  height: 230px;
+  width: 20%;
+  margin-top: -0.7%;
+  margin-bottom: 1%;
+  position: absolute;
+  float: left;
+  /* border: 1px solid rebeccapurple; */
+  margin-left: 0%;
+}
+.section2img {
+  height: 220px;
+  width: 90%;
+  margin-left: 5%;
+}
+.section3 {
+  height: 290px;
+  width: 96%;
+  /* border: 2px solid blue; */
+  margin-left: 2%;
+}
+.section3 > h2 {
+  font-size: 20px;
+  margin-left: 1%;
+  margin-top: 0.5%;
+}
+.list4 {
+  height: 230px;
+  width: 96%;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  position: absolute;
+  float: left;
+  /* border: 1px solid rebeccapurple; */
+  margin-left: 0%;
+  display: flex;
+  flex-direction: row;
+}
+.section3img {
+  height: 220px;
+  width: 90%;
+  margin-left: 5%;
+}
+.section4 {
+  height: 460px;
+  width: 96%;
+  /* border: 2px solid blue; */
+  margin-left: 2%;
+}
+.section5 {
+  height: 300px;
+  width: 96%;
+  /* border: 2px solid blue; */
+  margin-left: 2%;
+}
+.section5 > h2 {
+  font-size: 20px;
+  margin-left: 1%;
+  margin-top: 0.5%;
+}
+.list6 {
+  height: 240px;
+  width: 96%;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  position: absolute;
+  float: left;
+  /* border: 1px solid rebeccapurple; */
+  margin-left: 0.5%;
+}
+.section5card {
+  height: 220px;
+  width: 25%;
+}
+.scrolllist {
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+.section5img {
+  height: 220px;
+  width: 96%;
+  margin-left: 5%;
+}
+.section6 {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(9, 1, 30, 0.733);
+}
+.section6 > button {
+  margin-left: 45%;
+  margin-top: 2%;
+  position: relative;
+}
+.section7 {
+  height: 290px;
+  width: 100%;
+  background-color: rgba(56, 17, 154, 0.733);
+}
+.section7card {
+  height: 265px;
+  width: 100%;
+  margin-top: 5%;
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+.section7img {
+  height: 250px;
+  width: 100%;
+  margin-left: 5%;
+}
+.live__scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.live__scroll .row {
+  display: block;
+}
+.live__scroll .live__scroll--box {
+  width: 18%;
+  float: left;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+}
+footer {
+  height: 60px;
+  width: 100%;
+  background-color: #531f1f;
+}
+#foot {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 40%;
+  margin-top: 1%;
+  position: absolute;
+  color: white;
+}
