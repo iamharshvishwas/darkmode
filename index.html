@@ -8,6 +8,8 @@
       integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
     <header>
@@ -76,7 +78,32 @@
         <button class="button7">Sell</button>
       </div>
     </div>
+    <div id="coupon">
+      <button
+        class="btn btn-danger close"
+        onClick="closeCoupon()"
+        data-dismiss="modal"
+      >
+        &times;
+      </button>
+      <div class="coupondata">
+        <h5>Save up to</h5>
+        <h1>30% OFF</h1>
+        <p>in your next holiday order</p>
+        <input
+          class="emailseaction"
+          name="Enter Your Email"
+          required
+          placeholder="Enter Your Email"
+        />
+        <br />
+        <button class="couponbtn">Get It Now</button>
+        <br />
+        <p>Thank You</p>
+      </div>
+    </div>
     <div class="banner"></div>
+
     <div class="section1">
       <div class="list1">
         <div class="card one">
@@ -370,5 +397,8 @@
       <div id="foot">&copyright Amazon.com</div>
     </footer>
     <script type="text/javascript" src="amazon.js"></script>
+    <script>
+      window.onload = loadCoupon();
+    </script>
   </body>
 </html>

@@ -206,6 +206,47 @@ button > img {
   height: 200px;
   width: 100%;
 }
+#coupon {
+  height: 300px;
+  width: 450px;
+  background-color: rgba(255, 255, 255, 0.904);
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 33%;
+  z-index: 10;
+  border-radius: 7px;
+  text-align: center;
+}
+.close {
+  margin-right: 3%;
+  margin-top: 1%;
+}
+.coupondata > h5 {
+  text-align: center;
+  margin-top: 8%;
+}
+
+.emailseaction {
+  width: 220px;
+  border-radius: 20px;
+  border-color: black;
+  text-align: center;
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+.couponbtn {
+  width: 220px;
+  border-radius: 20px;
+  border-color: black;
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  margin-top: 8px;
+}
+.couponbtn:hover {
+  background-color: antiquewhite;
+  color: red;
+}
 .section1 {
   height: 900px;
   width: 96%;
